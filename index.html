@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>что хотите?</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+</head>
+<body>
+     <div class="app">
+      <header class="header">
+        <div class="grid">
+          <nav class="header__navbar">
+            <ul class="header__navbar-list">
+              <li class="header__nav-item header__nav-item--has-qr a">
+                QR code
+                <div class="header_qr">
+                  <img src="./assets/img/1688711217287.857.png" alt="" class="header_qr-img">
+                </div>
+              </li>
+              <li class="header__nav-item separate"><a href="" class="header__navbar-icon-link">
+                <i class="fa-sharp fa-solid fa-map-location-dot"></i>
+              </a> укажите адрес доставки</li>
+            </ul>
+
+            <ul class="header__navbar-list">
+              <li class="header__nav-item header__nav-item--has-notify">
+                <a href="" class="header__navbar-item-link"><i class="fa-sharp fa-regular fa-bell"></i> 
+                  сообщение
+                </a>
+                <div class="header_notification">
+                  <header class="header_notification-header">
+                    <h3>новый сообщение</h3>
+                  </header>
+                  <ul class="header_notification-list">
+                    <li class="header_notification-item">
+                      <a href="" class="header_notification-link">
+                        <img src="./assets/img/Hinh-anh-sale.jpg" alt="" class="header_notification-img">
+                          <div class="header_notification-info">
+                            <span class="header_notification-name">получить скидку</span>
+                          </div>
+                      </a>
+                    </li>
+                    
+                    <li class="header_notification-item">
+                      <a href="" class="header_notification-link">
+                        <img src="./assets/img/cac-mau-that-lung-nam-dep-1-1.jpg" alt="" class="header_notification-img">
+                          <div class="header_notification-info">
+                            <span class="header_notification-name">успешно купить</span>
+                          </div>
+                      </a>
+                    </li>
+
+                    <li class="header_notification-item">
+                      <a href="" class="header_notification-link">
+                        <img src="https://i0.wp.com/thatnhucuocsong.com.vn/wp-content/uploads/2022/01/anh-tui-xach-nu-dep-gia-re.jpg?fit=802%2C802&ssl=1" alt="" class="header_notification-img">
+                          <div class="header_notification-info">
+                            <span class="header_notification-name">успешно купить</span>
+                          </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__nav-item">
+                <a href="" class="header__navbar-item-link">помощь</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="" class="header__navbar-item-link header__navbar-item-link_strong a">регистрировать</a>
+
+              </li>
+              <li class="header__nav-item">
+                <a href="" class="header__navbar-item-link header__navbar-item-link_strong separate">войти</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header-with-search">
+            <div class="header__logo">
+              <img src="./assets/img/[removal.ai]_823ae29c-0007-4f8c-bfeb-3a35554f6755.png" alt="" class="logo-img">
+            </div>
+
+            <div class="header__search">
+              <a href="" class="icon-tim-kiem">
+                <i class="fa-solid fa-magnifying-glass icon-tim-kiem-icon"></i>
+              </a>
+              <input type="text" class="search" placeholder="я ищу">
+              
+            </div>
+            <!--gio hang-->
+            <div class="header__cart">
+              <div class="header__cart-wrap">
+                <a href="" class="icon-cart">
+                  <i class="fa-solid fa-cart-shopping icon-cart-icon-cart" ></i>
+                  <div class="header__cart-list  header__cart-list--no-cart">
+                    <img src="./assets/img/cart-empty-img.8b677cb3.png" alt="" class="header__cart-no-cart-img">
+  
+                  </div>
+  
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="app__container">
+        <div class="grid">
+          <div class="grid__row">
+            <div class="grid__colum-2">
+              <nav class="category">
+                <h3 class="category__heading">
+                  <i class="category__heading-icon fa-solid fa-list"></i>
+                  Категория</h3>
+                <ul class="category-list">
+                  <li class="category-item">
+                    <a href="" class="category-item__link">Женщинам</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="" class="category-item__link">Обувь</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="" class="category-item__link">Детям</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="" class="category-item__link">Мужчинам</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="" class="category-item__link">Дом</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="" class="category-item__link">Игрушки</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="grid__colum-10">
+              <div class="home-filter">
+                <span class="home-filter__label">сортировка </span>
+                <button class="btn">популярно</button>
+                <button class="btn">самый новый</button>
+                <button class="btn">самый хорошо</button>
+
+                <div class="select-input">
+                  <span class="select-input__label">цела</span>
+                  <i class="fa-solid fa-angle-down icon-mui-ten"></i>
+                  <ul class="select-input__list">
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link select-input__link-1">увеличивать</a>
+                      <a href="" class="select-input__link select-input__link-2">уменьшать</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="home-product">
+                <div class="grid__row">
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-01.wb.ru/vol138/part13856/13856867/images/c246x328/1.jpg);"></div>
+                      <h4 class="home-product-item__name">The Act express recovery </h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">600 ₽</span>
+                        <span class="home-product-item__price-current">386 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">korea</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">250%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-05.wb.ru/vol743/part74322/74322224/images/c246x328/3.jpg);"></div>
+                      <h4 class="home-product-item__name">TRIUNGHI GROUP </h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1845 ₽</span>
+                        <span class="home-product-item__price-current">498 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Китай</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">60%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-05.wb.ru/vol907/part90707/90707336/images/c246x328/1.jpg);"></div>
+                      <h4 class="home-product-item__name">шампунь для мальчкин </h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1290 ₽</span>
+                        <span class="home-product-item__price-current">399 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">69%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-10.wb.ru/vol1557/part155705/155705370/images/c246x328/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Беспроводные наушники Pro </h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">4990 ₽</span>
+                        <span class="home-product-item__price-current">499 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">90%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-03.wb.ru/vol411/part41175/41175635/images/c246x328/1.jpg);"></div>
+                      <h4 class="home-product-item__name">JOYCITY Зонт женский </h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">10 000 ₽</span>
+                        <span class="home-product-item__price-current">500 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">95%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-10.wb.ru/vol1597/part159753/159753539/images/c246x328/1.jpg);"></div>
+                      <h4 class="home-product-item__name">TECNO Смартфон Spark GO </h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">8990 ₽</span>
+                        <span class="home-product-item__price-current">5843 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">35%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-10.wb.ru/vol1520/part152027/152027758/images/c246x328/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Air Bags Сумка летняя </h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">12 879 ₽</span>
+                        <span class="home-product-item__price-current">1287 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">90%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-10.wb.ru/vol1493/part149324/149324410/images/c246x328/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Dramka Шнурки для обуви </h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">800 ₽</span>
+                        <span class="home-product-item__price-current">144 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">82%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-10.wb.ru/vol1387/part138738/138738644/images/c516x688/1.jpg);"></div>
+                      <h4 class="home-product-item__name">GEOX Кроссовки</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">5790 ₽</span>
+                        <span class="home-product-item__price-current">3416 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">41%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-01.wb.ru/vol130/part13027/13027290/images/c516x688/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Стиральный порошок Tide </h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1799 ₽</span>
+                        <span class="home-product-item__price-current">1493 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">17%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-10.wb.ru/vol1441/part144132/144132397/images/c516x688/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Galtex Подушка 70x70 - 2 шт.</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">2010 ₽</span>
+                        <span class="home-product-item__price-current">783 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">61%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-03.wb.ru/vol423/part42300/42300203/images/c516x688/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Scarlett Чайник электрический</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1649 ₽</span>
+                        <span class="home-product-item__price-current">906 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">45%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-01.wb.ru/vol30/part3048/3048451/images/c516x688/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Ювелирное кольцо женское</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">28 990 ₽</span>
+                        <span class="home-product-item__price-current">9566 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">67%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-11.wb.ru/vol1652/part165295/165295372/images/c246x328/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Смартфон C51 2GB+64GB</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">6010 ₽</span>
+                        <span class="home-product-item__price-current">4988 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">17%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-10.wb.ru/vol1578/part157870/157870649/images/c516x688/6.jpg);"></div>
+                      <h4 class="home-product-item__name">Комплект махровых полотенец</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1380 ₽</span>
+                        <span class="home-product-item__price-current">416 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">70%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-02.wb.ru/vol158/part15834/15834434/images/c516x688/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Банное полотенце 3 шт</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">2357 ₽</span>
+                        <span class="home-product-item__price-current">707 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">70%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-10.wb.ru/vol1467/part146743/146743487/images/c516x688/1.jpg);"></div>
+                      <h4 class="home-product-item__name">зажигалка zippo</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">9690 ₽</span>
+                        <span class="home-product-item__price-current">6879 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">29%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-01.wb.ru/vol65/part6583/6583968/images/big/1.jpg);"></div>
+                      <h4 class="home-product-item__name">крем-спрей</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">760 ₽</span>
+                        <span class="home-product-item__price-current">646 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">15%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-01.wb.ru/vol48/part4803/4803179/images/c516x688/1.jpg);"></div>
+                      <h4 class="home-product-item__name">Гель для душа</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">541 ₽</span>
+                        <span class="home-product-item__price-current">351 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">35%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__colum-2-4">
+                    <div class="home-product-item">
+                      <div class="home-product-item__img" style="background-image: url(https://basket-01.wb.ru/vol93/part9379/9379669/images/c516x688/1.jpg);"></div>
+                      <h4 class="home-product-item__name">универсальный крем</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">466 ₽</span>
+                        <span class="home-product-item__price-current">340 ₽</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">whoo</span>
+                        <span class="home-product-item__origin-name">Россия</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <i class="fa-solid fa-check"></i>
+                        like
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">27%</span>
+                        <span class="home-product-item__sale-off-label">скидка</span>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="grid">
+          <div class="grid__row">
+            <div class="grid__colum-2-4">
+              <h3 class="footer__heading">Покупателям</h3>
+              <ul class="footer__list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Как сделать заказ</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Доставка</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Вопросы и ответы</a>
+                </li>
+              </ul>
+            </div>
+            <div class="grid__colum-2-4">
+              <h3 class="footer__heading">Партнерам</h3>
+              <ul class="footer__list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Курьерам </a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Партнерский пункт выдачи</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Франшизный пункт выдачи</a>
+                </li>
+              </ul>
+            </div>
+            <div class="grid__colum-2-4">
+              <h3 class="footer__heading">Компания</h3>
+              <ul class="footer__list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Реквизиты</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Пресс-центр</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Контакты</a>
+                </li>
+              </ul>
+              
+            </div>
+            <div class="grid__colum-2-4">
+              <h3 class="footer__heading">Мы в соцсетях</h3>
+              <ul class="footer__list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">ВКонтакте</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">YouTube</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Телеграм</a>
+                </li>
+              </ul>
+            </div>
+            <div class="grid__colum-2-4">
+              <h3 class="footer__heading">Приложение</h3>
+              <img src="./assets/img/1688711217287.857.png" alt="" class="qr__code">
+            </div>
+          </div>
+        </div>
+      </footer>
+     </div>
+      <!--modal layout-->
+     <div class="modal">
+      <div class="modal__overlay"></div>
+
+      <div class="modal__body">
+        <div class="modal__inner">
+          <!--dang ki-->
+          <!--<div class="auth-form">
+
+            <div class="auth-form__container">
+              <div class="auth-form__header">
+                <h3 class="auth-form__heading">регистрировать</h3>
+                <span class="auth-from__switch-btn">воитй</span>
+              </div>
+    
+              <div class="auth-form__form">
+                <div class="auth-form__group">
+                  <input type="text" class="auth-form__input" placeholder="Фамилия и Имя">
+                </div>
+    
+                <div class="auth-form__group">
+                  <input type="text" class="auth-form__input" placeholder="Пароль">
+                </div>
+    
+                <div class="auth-form__group">
+                  <input type="text" class="auth-form__input" placeholder="повтрить пароль">
+                </div>
+    
+              </div>
+    
+              <div class="auth-form__controls">
+                <button class="btn">back</button>
+                <button class="btn btn--primary">регистрировать</button>
+              </div>
+            </div>
+
+            <div class="auth-form__socials">
+              <a href="" class="btn btn--with-icon-facebook">
+                <i class="fa-brands fa-facebook"></i>
+                Facebook
+              </a>
+    
+              <a href="" class="btn btn--with-icon-google">
+                <i class="fa-brands fa-google"></i>
+                google
+              </a>
+            </div>
+          </div>-->
+
+          <!--login form-->
+         <!--<div class="auth-form">
+
+            <div class="auth-form__container">
+              <div class="auth-form__header">
+                <h3 class="auth-form__heading">воитй</h3>
+                <span class="auth-from__switch-btn">регистрировать</span>
+              </div>
+    
+              <div class="auth-form__form">
+                <div class="auth-form__group">
+                  <input type="text" class="auth-form__input" placeholder="Фамилия и Имя">
+                </div>
+    
+                <div class="auth-form__group">
+                  <input type="text" class="auth-form__input" placeholder="Пароль">
+                </div>
+    
+                
+    
+              </div>
+    
+              <div class="auth-form__controls">
+                <button class="btn">back</button>
+                <button class="btn btn--primary">воитй</button>
+              </div>
+            </div>
+
+            <div class="auth-form__socials">
+              <a href="" class="btn btn--with-icon-facebook">
+                <i class="fa-brands fa-facebook"></i>
+                Facebook
+              </a>
+    
+              <a href="" class="btn btn--with-icon-google">
+                <i class="fa-brands fa-google"></i>
+                google
+              </a>
+            </div>
+          </div>--> 
+        </div>
+      </div>
+     </div>
+</body>
+</html>
