@@ -1,7 +1,7 @@
 const items = [
     {
         backgroundImage: 'https://basket-01.wb.ru/vol138/part13856/13856867/images/c246x328/1.jpg',
-        name: 'The Act express recovery',
+        name: 'The Act express',
         priceOld: 600,
         brand: 'whoo',
         originName: 'Корея',
@@ -23,7 +23,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-05.wb.ru/vol907/part90707/90707336/images/c246x328/1.jpg',
-        name: 'шампунь для мальчкин',
+        name: 'Шампунь мальчкин',
         priceOld: 1290,
         brand: 'whoo',
         originName: 'Россия',
@@ -34,7 +34,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-10.wb.ru/vol1557/part155705/155705370/images/c246x328/1.jpg',
-        name: 'Беспроводные наушники Pro',
+        name: 'Наушники',
         priceOld: 4990,
         brand: 'whoo',
         originName: 'Россия',
@@ -45,7 +45,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-03.wb.ru/vol411/part41175/41175635/images/c246x328/1.jpg',
-        name: 'JOYCITY Зонт женский',
+        name: 'JOYCITY Зонт',
         priceOld: 10000,
         brand: 'whoo',
         originName: 'Китай',
@@ -56,7 +56,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-10.wb.ru/vol1597/part159753/159753539/images/c246x328/1.jpg',
-        name: 'TECNO Смартфон Spark GO',
+        name: 'Смартфон Spark GO',
         priceOld: 8990,
         brand: 'whoo',
         originName: 'Россия',
@@ -67,7 +67,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-10.wb.ru/vol1520/part152027/152027758/images/c246x328/1.jpg',
-        name: 'Air Bags Сумка летняя',
+        name: 'Air Bags',
         priceOld: 12879,
         brand: 'whoo',
         originName: 'Россия',
@@ -78,7 +78,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-10.wb.ru/vol1493/part149324/149324410/images/c246x328/1.jpg',
-        name: 'Dramka Шнурки для обуви',
+        name: 'Шнурки для обуви',
         priceOld: 800,
         brand: 'whoo',
         originName: 'Россия',
@@ -100,7 +100,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-01.wb.ru/vol130/part13027/13027290/images/c516x688/1.jpg',
-        name: 'Стиральный порошок Tide',
+        name: 'Стиральный порошок',
         priceOld: 1799,
         brand: 'whoo',
         originName: 'Россия',
@@ -111,7 +111,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-10.wb.ru/vol1441/part144132/144132397/images/c516x688/1.jpg',
-        name: 'Galtex Подушка 70x70 - 2 шт',
+        name: 'Galtex Подушка',
         priceOld: 2010,
         brand: 'whoo',
         originName: 'Россия',
@@ -122,7 +122,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-03.wb.ru/vol423/part42300/42300203/images/c516x688/1.jpg',
-        name: 'Scarlett Чайник электрический',
+        name: 'Scarlett Чайник',
         priceOld: 1649,
         brand: 'whoo',
         originName: 'Россия',
@@ -133,7 +133,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-01.wb.ru/vol30/part3048/3048451/images/c516x688/1.jpg',
-        name: 'Ювелирное кольцо женское',
+        name: 'Ювелирное кольцо',
         priceOld: 28990,
         brand: 'whoo',
         originName: 'Китай',
@@ -144,7 +144,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-11.wb.ru/vol1652/part165295/165295372/images/c246x328/1.jpg',
-        name: 'Смартфон C51 2GB+64GB',
+        name: 'Смартфон C51',
         priceOld: 6010,
         brand: 'whoo',
         originName: 'Вьетнам',
@@ -166,7 +166,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-02.wb.ru/vol158/part15834/15834434/images/c516x688/1.jpg',
-        name: 'Банное полотенце 3 шт',
+        name: 'Банное полотенце',
         priceOld: 2357,
         brand: 'whoo',
         originName: 'Россия',
@@ -210,7 +210,7 @@ const items = [
     {
         
         backgroundImage: 'https://basket-01.wb.ru/vol93/part9379/9379669/images/c516x688/1.jpg',//детям
-        name: 'Универсальный крем',
+        name: 'Крем',
         priceOld: 466,
         brand: 'whoo',
         originName: 'Вьетнам',

@@ -50,7 +50,8 @@ const insertItem = (element) => {
         likeIcon.classList.add('fa-beat-fade');
     }
 
-    productLike.onclick = () => {
+    productLike.onclick = (event) => {
+        event.stopPropagation();
         if (favourites.includes(element.name)) favourites.splice(favourites.indexOf(element.name), 1);
         else favourites.push(element.name);
         localStorage.setItem('favourites', favourites);

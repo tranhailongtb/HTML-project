@@ -617,7 +617,7 @@ display: block;
 /*footer*/
 .footer{
     border-top: 4px solid #243fb4;
-    padding-top: 12px;
+    padding: 16px 48px;
 }
 
 .footer__heading{
@@ -710,4 +710,10 @@ display: block;
     .item-modal-content {
         width: 100%;
     }
+}
+
+.footer-qr {
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
 }
