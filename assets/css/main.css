@@ -148,7 +148,7 @@ cursor: pointer;/*doi thanh hinh ban tay khi tro chuot vao*/
 .header_notification-link{
     display: flex;
     text-decoration: none;/*bo gach chan*/
-    font-size: 15px;
+    font-size: 16px;
     color: black;
 
 }
@@ -164,62 +164,15 @@ cursor: pointer;/*doi thanh hinh ban tay khi tro chuot vao*/
     line-height:29px;
 }
 
-/*auth modal*/
-.modal{
-    animation: header_notificationgrowth ease-in 0.1s;
-}
-.auth-form__container{
-    padding: 0 32px;
-}
-
-.auth-form__header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.auth-form__heading{
-    font-size: 2rem;
-    color: #3d3c3c;
-    font-weight: 400;
-}
-
-.auth-from__switch-btn{
-    font-size: 1.6rem;
-    font-weight: 500;
-    color:rgb(59, 29, 230);
-    cursor: pointer;
-}
-
-.auth-form__form{
-    margin-top: 10px;
-}
-
-.auth-form__group{
-    padding-top:5px;
-    width: 100%;
-}
-.auth-form__input{
-    width: 100%;
-    height: 40px;
-}
-
-.auth-form__controls{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
 .btn{
     height: 25px;
     min-width: 100px;
-    font-size: 15px;
-    border-radius: 3px;
+    font-size: 16px;
+    border-radius: 8px;
     cursor: pointer;
 }
 .btn:hover{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .auth-form__socials{
     background-color: #c4bbbb;
@@ -259,6 +212,7 @@ cursor: pointer;/*doi thanh hinh ban tay khi tro chuot vao*/
     display: flex;
     align-items: center;
     height: 83px;
+    padding: 16px;
 }
 
 .logo-img{
@@ -268,20 +222,20 @@ cursor: pointer;/*doi thanh hinh ban tay khi tro chuot vao*/
 .header__search{
     display: flex;
     align-items: center;
+    flex: 1;
     background-color: #ffffff;
-    margin-left: 50px;
-    border-radius:7px;
+    margin: 0 80px;
+    border-radius: 8px;
 }
 .search{
     height: 30px;
-    width: 1500px;
+    flex: 1;
     margin-left: 5px;
     background-color: #ffffff;
     font-size: 20px;
     border: none;
     outline: 0;/*bo boeder cua input*/
-    
-    
+    border-radius: 8px;
 }
 .icon-cart-icon-cart{
     font-size: 30px;
@@ -296,7 +250,7 @@ cursor: pointer;/*doi thanh hinh ban tay khi tro chuot vao*/
 .icon-tim-kiem{
     background-color: #fff;
     padding-top: 2px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .header__cart{
@@ -341,20 +295,21 @@ display: block;
 /*app container*/
 .app__container{
     background-color: #d3d2d2;
+    padding: 16px;
 }
 
 .category{
     background-color: #fff;
-    padding-right: 10px;
-    border-radius: 2px;
-
+    min-width: 240px;
+    border-radius: 16px;
+    margin-top: 0;
 }
 
 .category__heading{
     font-size: 1.7rem;
     color:#3d3c3c;
-    padding:12px 16px;
-    margin-top: 0;
+    padding: 16px;
+    margin: 0;
     border-bottom:1px solid rgba(0,0,0,0.05) ;
 }
 
@@ -367,10 +322,13 @@ display: block;
 }
 
 .category-list{
-    padding-left: 0;
     list-style: none;/*bo dau cham trc the li*/
+    padding: 8px 16px;
 }
 
+.category-item {
+    padding: 8px;
+}
 
 .category-item__link{
     position: relative;
@@ -378,7 +336,6 @@ display: block;
     font-size: 1.6rem;
     color:#3d3c3c;
     text-decoration: none;/*bo gach chan cua chu*/
-    padding: 8px 16px;
     display: block;
     transition: right linear 0.1s;
 }
@@ -390,28 +347,37 @@ display: block;
 
 /*home sort + filter*/
 
-.home-filter{
-    margin-top:15px;
+.home-toolbar{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
-    padding: 10px 17px;
-    padding-right: 700px;
+    border-radius: 16px;
+    padding: 16px;
 }
-.home-filter__label{
-    font-size: 15px;
+.home-filter, .home-sort{
+    display: flex;
+    align-items: center;
+
+}
+.home-filter > *, .home-sort > *{
+    margin: 0 8px;
+}
+.home-filter__label, .home-sort__label{
+    font-weight: bold;
+    font-size: 16px;
     outline: none;
     border: 0;
 }
+
 .select-input__label{
-    font-size: 15px;
+    font-size: 16px;
    
 }
 
 .btn{
     background-color: #ffffff;
-    margin: 0 5px;
+    padding: 16px;
     min-width: 100px;
     outline: none;
     border: 0;
@@ -421,27 +387,41 @@ display: block;
     justify-content: center;
 }
 
+.btn--selected{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-weight: bold;
+}
+
 .select-input{
-    
-    height: 26px;
     background-color: #fff;
     display:flex;
-    flex-direction: column;
-    max-width: 100px;
-    position:relative
-    
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position:relative;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 .select-input__item{
     display: flex;
     flex-direction: column;
 }
-.icon-mui-ten{
-    
-    padding-left: 90px;
-    margin-top: -12px;
+.select-input__item > a{
+    text-align: center;
+    padding: 8px;
 }
-.select-input__label{
-    padding-top: 3px;
+.select-input__item > a:first-child{
+    border-radius: 0 8px 0 0;
+}
+.select-input__item > a:last-child{
+    border-radius: 0 0px 8px 8px;
+}
+.icon-mui-ten{
+    justify-self: flex-end;
+    margin-left: 8px;
 }
 .select-input__list{
     position: absolute;
@@ -460,7 +440,7 @@ display: block;
 .select-input__link{
     min-width: 120px;
     color: #3d3c3c;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     margin-right: 15px;
     background-color: #ffffff;
@@ -483,31 +463,35 @@ display: block;
 
 /*home product-iteam*/
 .home-product-item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 24px;
     position: relative;
     background-color: #fff;
     box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.1) ;
-    border-radius: 2px;
-    transition: tranform linear 0.1s;
-    will-change:tranform;
+    border-radius: 8px;
     cursor: pointer;
+    top: 0;
+    transition: top 0.2s ease-in, box-shadow 0.2s ease-in;
 }
-
 .home-product-item:hover{
-    transform: translateY(-1px);
-    box-shadow:0 1px 20px 0 rgba(0, 0, 0, 0.05) ;
+    top: -8px;
+    transition: top 0.2s ease-in, box-shadow 0.2s ease-in;
+    box-shadow:0 1px 20px 0 rgba(0, 0, 0, 0.4) ;
 }
 .home-product-item__img{
     padding-top: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 22px;
+    border-radius: 8px 8px 0 0;
 }
 .home-product-item__name{
     font-size:1.8rem ;
     font-weight: 500;
     color:#3d3c3c;
     line-height:1.8rem;
-    padding: 0 10px;
+    padding: 8px 16px 0;
     margin: 10px 0;
     height: 3.6 rem;
     overflow: hidden;
@@ -515,7 +499,7 @@ display: block;
 
 .home-product-item__price{
     display: flex;
-    margin-left: 10px;
+    padding: 8px 16px 0;
     align-items: baseline;/*chu viet tren 1 dong*/
 }
 .home-product-item__price-old{
@@ -533,14 +517,23 @@ display: block;
 .home-product-item__action{
     display: flex;
     justify-content: space-between;
-    margin: 10px 10px 0;
+    padding: 8px 16px 0;
     font-size: 1.4rem;
+}
+
+.home-product-item__like-liked {
+    color: #c0392b;
+}
+
+.home-product-item__rating-filled {
+    color: #f1c40f;
+    --fa-border-color: black;
 }
 
 .home-product-item__origin{
     display: flex;
     justify-content: space-between;
-    margin: 5px 11px;
+    padding: 8px 16px;
     font-size: 1.5rem;
     color: #595959;
     font-weight: 300;
@@ -578,11 +571,30 @@ display: block;
     height: 40px;
     text-align: center;
     background-color: #e6d432;
+    border-radius: 0px 8px 0px 0;
     display: flex;
     flex-direction: column;
     padding-top: 4px;
-
+    animation: beat 1s ease-in infinite normal;
 }
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .home-product-item__sale-off::after{
     content:"";
     position: absolute;
@@ -595,7 +607,7 @@ display: block;
 }
 .home-product-item__sale-off-percent{
     color:#eb4d1d;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 1.6rem;
 }
 
@@ -631,4 +643,71 @@ display: block;
 }
 .footer-item__link:hover{
     color:#e25454
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+  
+.item-modal-content {
+    margin: auto;
+    display: block;
+    height: 500px;
+}
+
+.item-modal-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 24px;
+    height: 150px;
+    font-size: 24px;
+}
+  
+.item-modal-content, .item-modal-caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.item-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.item-modal-close:hover, .item-modal-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .item-modal-content {
+        width: 100%;
+    }
 }
